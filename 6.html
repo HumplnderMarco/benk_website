@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+
+        <link rel="stylesheet" type="text/css" href="../css/application.css">
+
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+        <script type='text/javascript' src="../javaScript/jquery.ba-hashchange.min.js"></script>
+        <script type='text/javascript' src="../javaScript/dynamicpage.js"></script>
+
+
+    </head>
+    <body>
+        <div id="mainFrame">
+            <div id="header">
+                <div id="header-image">
+                    header
+                </div>
+            </div>
+            <nav>
+                <ul class="group">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="2.html">Kinder und<br>Jugendliche</a></li>
+                    <li><a href="3.html">Erwachsene</a></li>
+                    <li><a href="4.html">Kindertages-<br>einrichtungen</a></li>
+                    <li><a href="5.html">&Uuml;ber mich</a></li>
+                    <li><a href="6.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+            <div id="sidebar">
+                <div id="sidebar-picture">
+
+                </div>
+                <div id="sidebar-text">
+                    <h3>MARTINA BENKLER</h3>
+                    <br>
+                    <h4>Coaching und Training</h4>
+                    <br>
+                    <br>
+                    Telefon: 0 81 31 – 66 80 85
+                    <br>
+                    Mobil: 0175 – 499 84 65
+                    <br>
+                    martina.benkler@gmx.de
+                </div>
+            </div>
+            <section id="main-content">
+                <div id="guts">
+                    <div id="formular">
+                        <div id="contact-form">
+                            <br>
+                            Alle mit <span class="red"><strong>*</strong></span> versehene Felder m&uuml;ssen ausgef&uuml;llt werden!
+                            <br>
+                            <br>
+                            <form action="../php/form_process.php" method="post" name="contact_form">
+                                <table>
+
+
+                                    <tr>
+                                        <td>&#10112; <label>Nachricht<span class="red"><strong>*</strong></span>:</label></td>
+                                        <td><textarea name="message" maxlenght="1000" cols="30" rows="5"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&#10113; <label>Name<span class="red"><strong>*</strong></span>:</label></td>
+                                        <td><input name="last_name" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&#10114; <label>Vorname<span class="red"><strong>*</strong></span>:</label></td>
+                                        <td><input name="first_name" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&#10115; <label>E-Mail<span class="red"><strong>*</strong></span>:</label></td>
+                                        <td><input name="email" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&#10116; <label>E-Mail best&auml;tigen<span class="red"><strong>*</strong></span>:</label></td>
+                                        <td><input name="submit_email" type="text"></td>
+                                    <tr>
+                                    <tr>
+                                        <td>&#10117; <label>Telefon:</label></td>
+                                        <td><input name="telephone" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><br></td>
+                                        <td><br></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="submit" name="submit" class="submit" value="Senden"></td>
+                                        <td><input type="reset" name="reset" class="reset" value="Zur&uuml;cksetzen"></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+            </div>
+            <div id="footer"></div>
+        </div>
+    </body>
+</html>
